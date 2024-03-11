@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "vitest --run"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^7.1.1",
@@ -19,9 +20,11 @@
     "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^19.0.3",
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "@testing-library/react": "^14.2.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.3",
@@ -29,11 +32,13 @@
     "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-tailwindcss": "^3.15.0",
     "husky": "^9.0.11",
+    "jsdom": "^24.0.0",
     "postcss": "^8",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",
     "standard": "^17.1.0",
     "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^1.3.1"
   }
 }
