@@ -3,7 +3,7 @@
 ## Usage
 
 ```bash
-npx create-next-app@latest -e https://github.com/LendLab/next-template
+npx create-next-app@latest -e https://github.com/lendlab/next-template
 ```
 
 ## Getting Started
